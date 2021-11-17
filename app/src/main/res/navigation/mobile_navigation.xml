@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.AashuDeveloper.vegiwell.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_Menu"
+        android:name="com.AashuDeveloper.vegiwell.ui.Menu.MenuFragment"
+        android:label="@string/menu_category"
+        tools:layout="@layout/fragment_category" />
+
+
+    <fragment
+        android:id="@+id/nav_food_list"
+        android:name="com.AashuDeveloper.vegiwell.ui.foodlist.FoodListFragment"
+        android:label="@string/menu_food_list"
+        tools:layout="@layout/fragment_food_list" />
+    <fragment
+        android:id="@+id/nav_food_detail"
+        android:name="com.AashuDeveloper.vegiwell.ui.FoodDetail.FoodDetailFragment"
+        android:label="@string/menu_food_detail"
+
+        tools:layout="@layout/fragment_food_list" />
+
+
+    <fragment
+        android:id="@+id/nav_cart"
+        android:name="com.AashuDeveloper.vegiwell.ui.cart.Cartfragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart" />
+
+
+    <fragment
+        android:id="@+id/nav_about_us"
+        android:name="com.Aashu.vegiwell.ui.aboutus"
+        android:label="@string/about_us"
+        tools:layout="@layout/fragment_aboutus"/>
+    <fragment
+        android:id="@+id/nav_Myorder"
+        android:name="com.AashuDeveloper.vegiwell.ui.view_order.MyorderFragment"
+        android:label="@string/MyOrder"
+        tools:layout="@layout/fragment_view_order" />
+
+
+
+</navigation>

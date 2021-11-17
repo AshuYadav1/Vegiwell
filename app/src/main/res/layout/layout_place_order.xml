@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@drawable/view_pager_background">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:fontFamily="@font/brandon_medium"
+        android:layout_width="match_parent"
+        android:background="@color/White"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/edt_address"
+            android:hint="Enter Your Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:text="Delivery Method"
+        android:fontFamily="@font/brandon_medium"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/Brown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <RadioGroup
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+         <RadioButton
+             android:id="@+id/rdi_home_address"
+             android:checked="true"
+             android:text="Home Address"
+             android:fontFamily="@font/brandon_medium"
+             android:textSize="18sp"
+             android:textStyle="italic"
+             android:textColor="@color/Green"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Support Vegiwell ! "
+            android:textColor="@color/MidnightBlue"
+            android:fontFamily="@font/brandon_medium"/>
+
+
+
+    </RadioGroup>
+
+
+    <TextView
+        android:text="Payement Mode"
+        android:fontFamily="@font/brandon_medium"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/Brown"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    
+    <RadioGroup
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rdi_cod"
+            android:checked="true"
+            android:text="Cash On Delivery"
+            android:fontFamily="@font/brandon_medium"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:textColor="@color/Green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" # VOCAL FOR LOCAL "
+            android:fontFamily="@font/brandon_medium"
+            android:textColor="@color/Orange"
+            android:layout_marginLeft="8dp"/>
+
+
+
+
+    </RadioGroup>
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Vegiwell</string>
+    <string name="vegiwell">Vegiwell</string>
+    <string name="Homescreen">Homescreen</string>
+    <string name="title_activity_homeactivity">Homeactivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Vegiwell</string>
+    <string name="nav_header_subtitle">vegiwell@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Vegiwell
+    </string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_food_detail">Food Detail</string>
+    <string name="popular_categories">Popular Categories </string>
+    <string name="menu_cart">Cart</string>
+    <string name="Mandi_Wali_Sabji">Mandi Wali Sabji</string>
+    <string name="menu_category">Category</string>
+    <string name="menu_namkeen">Namkeen</string>
+    <string name="menu_food_list">Food List</string>
+    <string name="size">Size</string>
+    <string name="Add_on">Add on</string>
+    <string name="action_clear_cart">Clear Cart</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="about_us">About Us</string>
+    <string name="whatsapp_msg"> Whatsapp Order</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="MyOrder">My Order</string>
+    <string name="action_search">Search</string>
+</resources>

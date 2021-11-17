@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Homeactivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.Vegiwell.AppBarOverlay">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@android:color/holo_orange_dark"
+            android:theme="@style/ToolbarColoredBlackArrow"
+            app:popupTheme="@style/Theme.Vegiwell.PopupOverlay"
+            app:titleTextColor="@android:color/white"
+
+
+            />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <include layout="@layout/content_main" />
+
+
+    <com.andremion.counterfab.CounterFab
+        android:id="@+id/fab_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_baseline_shopping_cart_24"
+        android:tint="@color/White"
+        app:backgroundTint="@android:color/holo_orange_dark"
+
+        />
+
+    <com.andremion.counterfab.CounterFab
+        android:id="@+id/call_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="top|end"
+        android:layout_marginRight="37dp"
+        android:backgroundTint="@android:color/holo_orange_dark"
+        android:src="@drawable/ic_baseline_local_phone_24"
+        android:tint="@color/green"
+        app:maxImageSize="38dp"
+
+        />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/whatsapp_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+
+        android:layout_margin="16dp"
+        android:src="@drawable/whatsapp_image"
+        app:backgroundTint="@android:color/holo_orange_dark" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
